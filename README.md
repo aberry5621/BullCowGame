@@ -10,8 +10,8 @@ Made it through the first couple sections of the course.
 
 ####Section 2...
 
--42. Introducing Big O Notatio
--43. TMap and map Data Structures
--44. Range-based for Loop
--45. Design a Helper Function
+- 42. Introducing Big O Notatio
+- 43. TMap and map Data Structures
+- 44. Range-based for Loop
+- 45. Design a Helper Function
 
