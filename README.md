@@ -15,3 +15,4 @@ Made it through the first couple sections of the course.
 - 44. Range-based for Loop
 - 45. Design a Helper Function
 
+Check out on two Macs
