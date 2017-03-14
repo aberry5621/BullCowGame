@@ -26,8 +26,6 @@ FBullCowGame BCGame;
 // run
 int main() {
     
-    std::cout << "TRY: " << BCGame.GetCurrentTry() << std::endl;
-    
     bool bPlayAgain = false;
     do {
         PrintGameIntro(); // print the intro text
@@ -41,8 +39,11 @@ int main() {
 // define
 void PrintGameIntro() {
     // Game introduction
+    std::cout << std::endl;
+    std::cout << std::endl;
     std::cout << "Bulls and Cows Word Game" << std::endl;
     std::cout << "Can you guess the " << BCGame.GetHiddenWordLength() << " letter isogram I'm thinking of?" << std::endl;
+    std::cout << std::endl;
 }
 
 void PlayGame() {
@@ -76,7 +77,7 @@ FText GetValidGuess() {
     do {
         // get guess from the player
         int32 CurrentTry = BCGame.GetCurrentTry();
-        std::cout << "Try number " << CurrentTry << ". " << "Enter your guess: ";
+        std::cout << "Try " << CurrentTry << ". " << "Enter your guess: ";
         
         std::getline(std::cin, Guess);
         // check guess validity

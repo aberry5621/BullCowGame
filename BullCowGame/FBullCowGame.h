@@ -50,7 +50,7 @@ private:
     int32 MyMaxTries = 5; // see constructor for initialize values
     int32 MyCurrentTry = 1;  // see constructor for initialize values
     FString MyHiddenWord;
-    bool bGameWon = false;
+    bool bGameIsWon = false;
 };
 
 
